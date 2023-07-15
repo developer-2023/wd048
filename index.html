@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter {
+            font-size: 1.618rem;
+            color: gray;
+        }
+        p::first-line {
+            text-decoration: underline;
+        }
+        p::selection {
+            background-color: yellow;
+        }
+        ol {
+            list-style-type: none;
+        }
+        li::before {
+            content: "⇨ ";
+        }
+        .best-buy::after {
+            content:" 🔥";
+        }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, blanditiis sit quae in minus vitae voluptatum, inventore facere magnam a nihil corrupti odio nam eligendi culpa distinctio, maiores hic. Excepturi, aut. Doloremque eaque tempore officiis, consequatur pariatur a quaerat. Quis delectus accusantium perferendis alias maxime dignissimos ullam quasi dolor porro modi distinctio nisi placeat pariatur nihil suscipit, ipsa doloribus quaerat tempora minus recusandae quo vero aperiam. Pariatur, quod culpa nulla excepturi dolore eveniet sapiente! Cum minus quaerat distinctio earum repellendus ea, pariatur, nisi laboriosam consectetur sapiente, ipsum fugit iste at ut vel aperiam odit labore rem. Eligendi perspiciatis eum quia?</p>
+    <ol>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li class="best-buy">Incidunt fugit nihil natus iste!</li>
+        <li>Voluptatibus reiciendis voluptatem consequuntur quaerat.</li>
+        <li>In exercitationem maxime amet id!</li>
+    </ol>
+</body>
+</html>
